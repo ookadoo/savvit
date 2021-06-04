@@ -1,0 +1,13 @@
+{
+  "auth": {
+    "userAgent": "savvit v0.1",
+    "clientId": "",
+    "clientSecret": "",
+    "username": "",
+    "password": ""
+  },
+  "outputPath": "./output",
+  "limit": 5,
+  "urlPrefix": "https://old.reddit.com",
+  "intervalMs": 300000
+}

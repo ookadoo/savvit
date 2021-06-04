@@ -1,0 +1,26 @@
+{
+  "name": "savvit",
+  "version": "0.0.1",
+  "description": "Reddit offline saver",
+  "main": "src/server.js",
+  "scripts": {
+    "clean": "npx rimraf output",
+    "test": "exit 0",
+    "start": "node src/server.js",
+    "cleanstart": "npm run clean && npm start"
+  },
+  "author": "ookadoo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "dayjs": "^1.10.5",
+    "get-value": "^3.0.1",
+    "puppeteer": "^9.1.1",
+    "snoowrap": "^1.23.0",
+    "youtube-dl-exec": "^1.2.3"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
